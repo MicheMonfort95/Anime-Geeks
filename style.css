@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: sans-serif;
+	margin: 0;
+}
+
+.logo{
+	font-family:'Zeyada' ;
+	font-size: 40px;
+
+}
+
+.logo a{
+	color: #f9f8f8;
+	text-decoration: none;
+}
+
+.logo a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+nav {
+	background-color: #ddd;
+	padding: 5px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li a:hover{
+	background: rgba(61, 61, 61, 0.119);
+	text-decoration: none;
+
+}
+
+nav a {
+	display: block;
+	padding: 5px;
+	color: #333;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #ccc;
+}
+
+main {
+	padding: 40px;
+}
+
+.carousel-item img{
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: auto;
+	height: 80vh;
+	filter: brightness(80%);
+}
+
+.box{
+	background: rgba(0, 0, 0, 0.5)	;
+	width: 100%;
+	padding: 25px;
+}
+
+h2 {
+	
+	margin-top: 10px;
+}
+
+footer {
+	font-family:'Zeyada' ;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
